@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;;
+}
+
+a { color: inherit;
+
+    text-decoration: none;
+
+
+} 
+
+.desconto{
+    max-width: 100%;
+    
+    padding: 8px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif
+    
+}
+
+
+
+.navbar-container{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.titulo{
+    font-size: 2.5em;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+
+}
+
+.items-navbar a{
+    margin-right: 30px;
+    padding: 0 10px;
+    font-size: 1.5em;
+    font-family: Montserrat, sans-serif
+    
+}
+
+
+/* ShowCase */
+
+.section-container{
+    max-width: 100%;
+    height: 60vh;
+    background: url(./img/wallpaper.jpeg) center center/cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;
+}
+
+
+.description{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+}
+
+.titulo-section{
+    font-size: 3.1em;
+   
+    
+}
+
+.desc-section{
+    font-size: 1.7em;
+}
+
+/* Section 2 */
+
+.destaques{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+.text-destaques-1{
+    font-size: 32px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+
+}
+
+.text-destaques-2{
+font-size: 18px;
+font-family: Montserrat, sans-serif;
+font-weight: 500;
+
+}
+
+.show-tenis{
+    max-width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+.modelos-1 , .modelos-2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    
+
+}
+
+
+
+img{
+    height: 150px;
+    width: auto;
+    background-color: #EBE9EA;
+    padding: 30px;
+    margin-left: 20px;
+
+}
+
+
+.footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: Montserrat , sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    max-width: 100%;
+}
